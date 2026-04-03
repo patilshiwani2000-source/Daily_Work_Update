@@ -1,0 +1,52 @@
+----git push code----
+git status
+git add file name sapce file name 
+git commit -m "message"
+git push origin branch name 
+
+---- git stash----
+
+git status 
+git stash push file name
+git checkout SPOG_project_main
+git pull
+git checkout -b features/branch name
+
+
+
+
+
+git restore 
+git restore . ------galti se file modify kar to
+git restore --staged . --------- galti se git add kare to use that 
+git status
+git checkout spog_project_main
+git pull
+git checkout -b new brach create
+git stash apply "satsh@{4}"
+------------------------------------------------------------------------------------------------------------
+git stash push -m "backend +packege file" file name
+
+git stash push -m"auth + celery + setting"
+
+git stash list
+
+Example:- stash@{0}: on bug/Overview-ticket-model: auth+celery+ setting
+          stash@{1}: bug/Overview-ticket-model: backend + packege files
+		  
+git stash apply satsh@{1}	
+git status
+
+-----------------------------------------------------------------------------------------------------
+git stash drop stash@{2}------------------use on stash delete
+----------------------------------
+Remove untracked file 
+git clean -f file_name
+
+--------------------------------------------------
+current work safe :-
+git stash push -m " commit"
+-------------------------------------
+
+
+
